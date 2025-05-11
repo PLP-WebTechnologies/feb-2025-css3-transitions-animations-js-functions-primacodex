@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Animations</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Animation Playground</h1>
+
+      <div class="preference-section">
+        <h2>Set Your Preferences</h2>
+        <div class="color-picker">
+          <label for="bgColor">Choose background color:</label>
+          <input type="color" id="bgColor" value="#ffffff" />
+          <button id="savePrefBtn">Save Preferences</button>
+        </div>
+      </div>
+
+      <div class="animation-section">
+        <h2>Try These Animations</h2>
+        <div class="animation-box" id="animatedBox"></div>
+        <div class="controls">
+          <button id="bounceBtn">Bounce</button>
+          <button id="spinBtn">Spin</button>
+          <button id="fadeBtn">Fade</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
